@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "internal-copy": {
+      "hosting": {
+        "covidtesting": [
+          "internal-copy"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "internal-copy"
+  }
+}
