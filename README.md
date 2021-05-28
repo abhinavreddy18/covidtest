@@ -1,27 +1,3 @@
-# Covidtesting
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The main aim of this project is to design a pre-programmed mechanical arm which allows for an automated contactless covid testing system using IOT.
+The user is supposed to initially visit the website and register with the details asked by selecting a nearest covid testing centre from the given options. After the registration process, an ID(a 6-digit number) is sent to the registered mobile number that has to be provided at the test centre to be allowed to the sample taking process by the mechanical arm. The sample is sent to the lab with the ID provided by the user and tested with the same label. The results are then sent to the registered mobile number associated with the corresponding ID.
+Testing process: A person sits in front of the mechanical arm and puts his face in the given position that is suitable for the arm to insert a swab into the nose of the person and put it into the sample taking container. This container is provided with the ID of the person in prior. This labeled sample is sent to the 
