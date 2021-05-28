@@ -1,11 +1,16 @@
-body {
+.wrapper {
     font-family: Calibri, Helvetica, sans-serif;
-    background-color: rebeccapurple;
+    background-color: white;
+}
+
+.header {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: #33ccff;
 }
 
 .container {
     padding: 50px;
-    background-color: plum;
+    background-color: #b3ecff;
 }
 
 div {
@@ -33,7 +38,7 @@ hr {
 }
 
 .button {
-    background-color: rebeccapurple;
+    background-color: black;
     border: none;
     color: white;
     padding: 10px 25px;

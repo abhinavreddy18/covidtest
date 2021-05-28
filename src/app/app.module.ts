@@ -9,11 +9,15 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import * as firebase from 'firebase';
 import { RegistrationComponent } from './registration/registration.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { FAQComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HomepageComponent,
+    FAQComponent
   ],
   imports: [
     BrowserModule,

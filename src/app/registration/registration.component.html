@@ -1,29 +1,32 @@
-<form name="myForm" onsubmit="return validation()">
-    <div class="container">
-        <h1>Registration Form</h1>
-        <hr>
+<div class="wrapper">
+    <form name="myForm">
+        <div class="container">
+            <div class="header">
+                <h1>Registration Form</h1>
+            </div>
+            <hr>
 
-        <label> Firstname </label>
-        <input type="text" name="firstname" placeholder="Firstname" size="15" required><br><br>
+            <label> Firstname </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15"><br><br>
 
-        <label> Lastname: </label>
-        <input type="text" name="lastname" placeholder="Lastname" size="15" required><br><br>
-        <label> Age: </label>
-        <input type="number" name="age" placeholder="age" size="3" required><br>
-
-
-
-        <br><label> Gender :</label>
-        <input type="radio" value="Male" name="gender" checked> Male
-        <input type="radio" value="Female" name="gender"> Female
-        <input type="radio" value="Other" name="gender"> Other<br><br>
-
-        <label> Phone :</label>
-        <input type="number" name="phnumber" placeholder="Phone Number" size="13" required> <br><br>
+            <label> Lastname: </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15"><br><br>
+            <label> Age: </label>
+            <input type="number" name="age" placeholder="age" size="3"><br>
 
 
-        <label> Testing Centre :</label>
-        <select>
+
+            <br><label> Gender :</label>
+            <input type="radio" value="Male" name="gender" checked> Male
+            <input type="radio" value="Female" name="gender"> Female
+            <input type="radio" value="Other" name="gender"> Other<br><br>
+
+            <label> Phone :</label>
+            <input type="number" name="phnumber" placeholder="Phone Number" size="13"> <br><br>
+
+
+            <label> Testing Centre :</label>
+            <select>
   <option value="select_centre">Select a Centre</option>
   <option value="AIG Hospitals">AIG Hospitals, Gachibowli</option>
   <option value="Apollo Hospitals">Apollo Hospitals, Jubliee Hills</option>
@@ -34,8 +37,10 @@
   </select><br><br>
 
 
-        <label> Email ID :</label>
-        <input type="text" name="Email ID" placeholder="Email ID" size="25" required><br><br>
-        <input class="button" type="submit" value="Submit">
-    </div>
-</form>
+            <label> Email ID :</label>
+            <input type="text" name="Email ID" placeholder="Email ID" size="25"><br><br>
+            <input class="button" type="submit" value="Submit">
+        </div>
+    </form>
+    <button routerLink="" type="button" class="btn btn-primary">Back to Homepage</button>
+</div>
